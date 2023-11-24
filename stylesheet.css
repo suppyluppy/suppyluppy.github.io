@@ -1,0 +1,108 @@
+
+/* css is life. selectors are sorted based on which appeared first.*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+
+body {
+    background-color: #f6effb;
+    margin: 5rem;
+    font-family: "Fredoka";
+}
+
+header {
+    line-height: 0.5;
+    margin-bottom: 100px;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+}
+
+#toople-image {
+    width: 500px;
+}
+
+#title {
+    font-size: 90px;
+    color: #8076a9;
+    display: flex;
+    justify-content: center;
+}
+
+#desc {
+    font-size: 40px;
+    color: #aa88be;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+h2 {
+    font-size: 50px;
+    color: #8076a9;
+}
+    
+h3 {
+    font-size: 38px;
+    color: #aa88be;
+}
+
+p {
+    font-size: 25px;
+    color: #525278;
+}
+
+#questions {
+    margin-left: 3rem;
+}
+
+hr {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cdc3e0;
+    border-radius: 5px;
+}
+
+::selection {
+    background-color: #cdc3e0;
+    color: #525278;
+}
+
+/* for small screens. super broken */
+
+@media only screen and (max-width: 600px) {
+
+    header {
+        line-height: 0.9;
+    }
+
+    #toople-image {
+        width: 300px;
+        margin: 1rem;
+    }
+
+    #title {
+        font-size: 70px;
+        text-align: center;
+    }
+
+    #desc {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 40px;
+        color: #8076a9;
+    }
+
+    p {
+        font-size: 20px;
+        color: #525278;
+    }
+    
+  }
